@@ -1,0 +1,323 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.container{
+	padding-left:18%;
+	padding-right:18%;
+}
+.wid50{
+    width: 50%!important;
+}
+.wid70{
+    width: 70%!important;
+    display: inline-block;
+}
+.floatLeft{
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.alt p{
+    font-size: 22px;
+}
+.orta{
+    width: 80%;
+    margin-left: 10%;
+}
+.orta .vizyon,
+.orta .haber,
+.orta .liste,
+.orta .fragman,
+.orta .alt,
+.orta .detay,
+.orta .konu{
+    margin-top: 20px;
+}
+.ust{
+	padding-left:18%;
+	padding-right:18%;
+}
+.ust:nth-child(1){
+    background-color: #77091C;
+}
+.ust:nth-child(2){
+    background-color: #570415;
+}
+.ustPanel{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+.ustPanel form input{
+    border: 0;
+    padding: 8px;
+    border-radius: 32px;
+    margin-top: 10px;
+}
+.ustPanel div:nth-child(3){
+    line-height: 50px;
+}
+.ustPanel div{ 
+    flex: 1;
+}
+.ustPanel ul{ 
+    flex: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ustPanel ul li{
+    display: inline-block;
+}
+.ustPanel ul li:hover{
+    background-color: #77091C;
+}
+.ustPanel ul li a{
+    display: block;
+    padding: 10px;
+}
+.orta .vizyon .vizyonBaslik,
+.orta .haber .haberBaslik,
+.orta .liste .listeBaslik,
+.orta .fragman .fragmanBaslik{
+    color: gray;
+    font-size: 20px;
+}
+.orta .vizyon .slider{
+    width: 100%;
+    overflow-x: scroll;
+    white-space:nowrap;
+}
+.orta .vizyon .slider .item{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.orta .haber .haber1{
+    position: relative;
+    margin-bottom: 10px;
+}
+.orta .haber .haber1 div:first-child{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    bottom: 8px;
+    left: 16px;
+}
+.orta .haber .haber2{
+    margin-bottom: 10px;
+}
+.orta .haber .haber2 .item{
+    display: inline-block;
+    width: 24%;
+}
+.orta .haber .haber2 .item img{
+    width: 100%;
+}
+.orta .liste .item{
+    width: 32%;
+    display: inline-block;
+}
+.orta .liste .item img{
+    width: 100%;
+}
+.orta .fragman .item{
+    position: relative;
+    display: inline-block;
+    width: 24%;
+}
+.orta .fragman .item img{
+    width: 100%;
+}
+.orta .fragman .item div:first-child{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    bottom: 8px;
+    left: 16px;
+}
+.orta .detay .detaySol{
+    float: left;
+    display: inline-block;
+    width: 120px;
+    height: 170px;
+}
+.orta .detay .detaySol img{
+    width: 100%;
+    height: 100%;
+}
+.orta .detay .detaySag{
+    display: inline-block;
+    height: 170px;
+    margin-left: 10px;
+}
+.orta .detay .detaySag div{
+    display: inline-block;
+    padding: 5px;
+}
+.orta .detay .detaySag div{
+    width: 45%;
+}
+.orta .detay .detaySag div div:first-child{
+    color: gray;
+    font-size: 16px;
+}
+.orta .konu div{
+    padding: 5px;
+}
+.orta .konu div:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+.orta .begeni{
+	margin-top:10px;
+}
+.orta .begeni .btnBegen{
+	border-radius:16px;
+	background-color:white;
+}
+.orta .begeni .kirmizi{
+	background-color:brown!important;
+	color:white!important;
+}
+.orta .yorumlar input{
+    border: 0;
+    padding: 8px;
+    margin-top: 5px;
+}
+.orta .yorumlar textarea{
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+}
+.orta .yorumlar .yorumlarListe ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.orta .yorumlar .yorumlarListe ul li div{
+    margin: 5px;
+}
+.orta .yorumlar .yorumlarListe ul li div:nth-child(1){
+    color:dodgerblue;
+}
+.orta .yorumlar .yorumlarListe ul li div:nth-child(2){
+    font-size: 12px;
+}
+.orta .yorumlar .yorumlarListe ul li div:nth-child(4){
+    margin-bottom: 10px;
+}
+.orta .yorumlar .yorumlarListe ul li div:nth-child(4) input{
+    margin-left: 80%
+}
+.orta .haberIcerik{
+    margin-top: 20px;
+}
+.orta .sonHaberler{
+    width: 25%; 
+    display: inline-block;
+}
+.orta .sonHaberler ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+}
+.orta .sonHaberler ul li{
+    margin-bottom: 10px;
+}
+.orta .sonHaberler ul li div:nth-child(1){
+    width: 100px;
+}
+.orta .sonHaberler ul li div:nth-child(1) img{
+    width: 100%;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-header {
+    padding: 2px 16px;
+    background-color: #77091C;
+    color: white;
+}
+.modal-body {padding: 2px 16px;}
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #570415;
+    color: white;
+}
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin-top: 5%;
+    padding: 0;
+    border: 1px solid #888;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+.form-element{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+}
+.form-element label,
+.form-element span,
+.form-element input,
+.form-element textarea{
+    display: inline-block;
+}
+.form-element label,
+.form-element span{
+    width: 30%;
+}
+.form-element input[type="text"],
+.form-element input[type="password"],
+.form-element input[type="email"],
+.form-element textarea{
+    width: 68%;
+}
+.form-element input[type="submit"],
+.form-element input[type="button"]{
+    border: 0;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #77091C;
+    color:white;
+}
